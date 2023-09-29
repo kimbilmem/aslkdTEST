@@ -198,8 +198,8 @@ do
         })
         print("Sent")
     end
-    
-    local url = ""
+
+    local url = userEnteredURL
     
     -- Create a function to send the webhook every 5 seconds
     local function SendWebhook()
